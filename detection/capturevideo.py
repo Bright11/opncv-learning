@@ -4,7 +4,8 @@ import numpy as np
 def nothing(x):
     pass
 
-cap=cv2.VideoCapture(0);
+
+cap=cv2.VideoCapture(0)
 
 cv2.namedWindow("Tracking")
 cv2.createTrackbar("LH","Tracking",0,255,nothing)
@@ -50,3 +51,6 @@ while True:
     
 cap.release()
 cv2.destroyAllWindows()
+
+
+# https://www.anedot.com/blog/best-nonprofit-websites

@@ -1,0 +1,5 @@
+Working with matplotlib
+and opencv
+
+how to install matplotlib
+pip install matplotlib
